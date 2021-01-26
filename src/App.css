@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  /* as below header little grey color on instagram */
+  background-color: #fafafa;
+  height:100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__header {
+  /* keeps aspect ratio of insta, never look stretch */
+  background-color: white  ;
+  /*for logo ) pdding means inside space, marign are outside */
+  padding:20px;
+  /* light gray border line belo logo */
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__signup {
   display: flex;
+  /* everything in a column */
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

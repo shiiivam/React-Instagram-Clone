@@ -1,0 +1,36 @@
+.post {
+    background-color: white;
+    max-width:500px;
+    border: 1px solid lightgray;
+   /* gap between each post */
+    margin-bottom: 45px;
+}
+
+.post__image{
+
+    /* always 100%of the screen */
+    width:100%;
+    /* makes image responsive always same size as string */
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.post__text{
+    font-weight:normal;
+    padding:20px;
+}
+
+.post__header{
+    /* CSS Flex as we studied that flex make two or 
+    many inside div in same line and align-items in 
+    center */
+    display:flex;
+    align-items: center;
+   /* 20px padding everyside */
+    padding:20px;
+}
+
+.post__avatar{
+    margin-right:10 px;
+}
